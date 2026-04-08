@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/logo.png" width="350" height="300">
+  <img src="./assets/cclogo.png" width="350" height="300">
 </p>
 
 <h3 align="left">Connecting Communities Through Volunteering!</h3>
