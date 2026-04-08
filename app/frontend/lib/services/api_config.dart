@@ -9,7 +9,16 @@ class ApiConfig {
   // Android emulator uses 10.0.2.2 to reach the host machine's localhost.
   // iOS simulator and physical devices use your machine's local IP (e.g. 192.168.1.x).
   // Change this to your deployed server URL for production.
-  static const String baseUrl = 'http://10.0.2.2:3000/api';
+  
+  // For Local Development — Choose one:
+  // Android Emulator:
+  // static const String baseUrl = 'http://10.0.2.2:3000/api';
+  
+  // iOS Simulator, Windows Desktop, or Web:
+  static const String baseUrl = 'http://localhost:3000/api';
+  
+  // Physical Device (use your machine's IP from 'ipconfig'):
+  //static const String baseUrl = 'http://10.245.197.117:3000/api';
 
   // ── Endpoints ──────────────────────────────────────────────────────────────
   // Auth

@@ -62,11 +62,11 @@ class EventService {
     final data = await ApiClient.post(ApiConfig.events, {
       'title': title,
       'date': date,
-      if (description != null) 'description': description,
-      if (category != null) 'category': category,
-      if (location != null) 'location': location,
-      if (time != null) 'time': time,
-      if (imageUrl != null) 'imageUrl': imageUrl,
+      'description': description,
+      'category': category,
+      'location': location,
+      'time': time,
+      'imageUrl': imageUrl,
       'isFeatured': isFeatured,
     });
     return data['event'] as Map<String, dynamic>;

@@ -25,7 +25,7 @@ class ChatService {
   static Future<Map<String, dynamic>> startChat(String organizerId, {String? eventId}) async {
     final data = await ApiClient.post(ApiConfig.chats, {
       'organizerId': organizerId,
-      if (eventId != null) 'eventId': eventId,
+      'eventId': ?eventId,
     });
     return data['chat'] as Map<String, dynamic>;
   }
