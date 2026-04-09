@@ -1,11 +1,11 @@
 # 🌍 Community Connect
 
 <p align="center">
-  <img src="./assets/banner.png" width="1000">
+  <img src="banner.png" width="1000">
 </p>
 
 <p align="center">
-  <img src="./assets/cclogo.png" width="350" height="300">
+  <img src="logo.png" width="350" height="300">
 </p>
 
 <h3 align="left">Connecting Communities Through Volunteering!</h3>
